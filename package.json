@@ -1,0 +1,16 @@
+{
+  "name": "sanskrit-parser-js",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist/index.js",
+    "dist/LICENSE",
+    "dist/NOTICE.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test"
+  }
+}
